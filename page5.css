@@ -1,0 +1,40 @@
+.fifthPage {
+    max-width: 2500px;
+    height: 100vh;
+    padding: 0px 18vw 0px 18vh;
+    position: relative;
+}
+
+.ending {
+    margin-top: 20vh;
+    float: right;
+    width: 50%;
+}
+
+.scrollUp {
+    margin-top: 10vh;
+    float: left;
+    outline: none;
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 22px;
+    border-color: #4896C1;
+    color: #4896C1;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.scrollUp:hover {
+    opacity: 0.5;
+}
+
+.creator {
+    position: absolute;
+    text-align: center;
+    float: left;
+    bottom: 50px;
+    color: lightgray;
+    max-width: 100vw;
+}

@@ -1,0 +1,154 @@
+.thirdPage {
+    min-height: 100vh;
+    overflow-x: hidden;
+    padding: 0px 18vw 0px 18vw;
+    max-width: 2500px;
+}
+
+.experienceHeader {
+    position: relative;
+    display: flex;
+    top: 0px;
+    padding: 0px 0px 0px 0vw;
+}
+
+.experienceHeader h1{
+    font-size: 36px;
+    background: linear-gradient(135deg,#4896C1,#62BECE,#4896C1);
+    background: -webkit-linear-gradient(135deg,#4896C1,#62BECE,#4896C1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.experienceContainer #container {
+    box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.experienceContainer {
+    position: relative;
+    height: 350px;
+    margin-left: 0px;
+    padding: 50px 0px 100px 3px;
+    float: left;
+    width: 370px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+}
+
+.experienceContainer::-webkit-scrollbar {
+    display: none;
+  }
+  
+ 
+  .experienceContainer {
+    -ms-overflow-style: none;    
+  }
+
+#container1 {
+    
+    margin-right: 8%;
+    display: inline-block;
+    width: 340px;
+    height: 340px;
+    background-color: #F7F7F7;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px lightgray;
+    scroll-snap-align: center;
+    padding: 10px 0px 0px 15px;
+}
+
+#container1 h2{
+    background: transparent;
+}
+
+#container1 h3 {
+    font-size: 16px;
+    background: transparent;
+    color: gray;
+    font-weight: 500;
+}
+
+#container2 {
+    margin-right: 8%;
+    display: inline-block;
+    width: 340px;
+    height: 340px;
+    background-color: #F7F7F7;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px lightgray;
+    scroll-snap-align: center;
+    padding: 10px 0px 0px 15px;
+}
+
+#container2 h2{
+    background: transparent;
+}
+
+#container2 h3 {
+    background: transparent;
+    color: gray;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.experienceContainer ul {
+   position: sticky;
+   float: left;
+   justify-content: center;
+   text-align: center;
+   left: 0;
+   width: 100%;
+   margin-top: 20px;
+   
+}
+
+.experienceContainer ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.experienceContainer ul button {
+    color: #4896C1;
+    font-size: 20px;
+    margin-right: 20px;
+    border: none;
+    border-style: none;
+    outline: none;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+}
+
+.experienceContainer ul button:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
+
+
+.quotes h3 span {
+    color: #4896C1;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.quotes h3 {
+    font-style: italic;
+}
+
+.quotes h4 {
+    float: right;
+    padding: 30px;
+    color: grey;
+    font-weight: normal;
+}
+
+.quotes {
+    padding: 80px 0px 0px 0px;
+    float: right;
+    width: 40%;
+    position: relative;
+}

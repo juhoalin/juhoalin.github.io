@@ -1,0 +1,47 @@
+@media (max-width: 1100px) {
+
+    .secondPage {
+        overflow-x: hidden;
+        padding: 0px 10vw 0px 10vw;
+        height: 100vh;
+    }
+
+    .thirdPage {
+        min-height: 100vh;
+        overflow-x: hidden;
+        padding: 0px 10vw 0px 10vw;
+        
+    }
+
+    .fourthPage {
+        position: relative;
+        padding: 0px 10vw 0px 10vw;
+        overflow-x: hidden;
+    }
+
+
+}
+
+@media (max-width: 900px) {
+
+    .secondPage {
+        overflow-x: hidden;
+        padding: 0px 7vw 0px 7vw;
+        height: 100vh;
+    }
+
+    .thirdPage {
+        min-height: 100vh;
+        overflow-x: hidden;
+        padding: 0px 7vw 0px 7vw;
+    }
+
+    .fourthPage {
+        position: relative;
+        padding: 0px 7vw 0px 7vw;
+        overflow-x: hidden;
+    }
+
+   
+
+}

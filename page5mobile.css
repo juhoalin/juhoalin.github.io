@@ -1,0 +1,32 @@
+@media(max-width: 700px) {
+    .fifthPage {
+        max-width: 2500px;
+        height: 100vh;
+        padding: 0px 9vw 0px 9vw;
+        justify-content: center;
+    }
+    
+    .ending {
+        margin-top: 20vh;
+        width: 50%;
+        float: left;
+    }
+
+    .ending h1 {
+        font-size: 24px;
+    }
+    
+    .scrollUp {
+        margin-top: 10vh;
+        float: left;
+        outline: none;
+        text-decoration: none;
+        border-style: solid;
+        border-radius: 22px;
+        border-color: #4896C1;
+        color: #4896C1;
+        padding: 5px 10px 5px 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
