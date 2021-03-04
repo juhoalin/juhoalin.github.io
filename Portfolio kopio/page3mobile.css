@@ -1,0 +1,163 @@
+@media (max-width: 900px) {
+    .expContainers {
+        position: relative;
+        height: 300px;
+        margin-left: 0px;
+        padding: 50px 0vw 50px 3px;
+        float: left;
+        width: 300px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        scroll-snap-type: x mandatory;
+    }
+
+    #container1 {
+    
+        margin-right: 8%;
+        display: inline-block;
+        width: 290px;
+        height: 290px;
+        background-color: #F7F7F7;
+        border-radius: 30px;
+        box-shadow: 4px 4px 4px lightgray;
+        scroll-snap-align: center;
+    }
+    
+    #container2 {
+        margin-right: 8%;
+        display: inline-block;
+        width: 290px;
+        height: 290px;
+        background-color: #F7F7F7;
+        border-radius: 30px;
+        box-shadow: 4px 4px 4px lightgray;
+        scroll-snap-align: center;
+    }
+
+   
+
+}
+
+@media (max-width: 700px) {
+    .quotes {
+        float: left;
+        width: 100%;
+        position: relative;
+    }
+
+    .quotes h3 span {
+        color: #4896C1;
+        font-size: 40px;
+        font-style: italic;
+    }
+    
+    .quotes h3 {
+        font-style: italic;
+        font-size: 16px;
+    }
+    
+    .quotes h4 {
+        font-size: 16px;
+        float: right;
+        right: 0px;
+        padding: 20px;
+        color: grey;
+        font-weight: normal;
+    }
+
+    .experienceHeader h1{
+        font-size: 28px;
+        background: linear-gradient(135deg,#4896C1,#62BECE,#4896C1);
+        background: -webkit-linear-gradient(135deg,#4896C1,#62BECE,#4896C1);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .thirdPage {
+        min-height: 100vh;
+        overflow-x: hidden;
+        padding: 0px 10vw 0px 10vw;
+        justify-content: center;
+    }
+
+    .experienceContainer {
+        position: relative;
+        height: 300px;
+        margin-left: 0px;
+        padding: 50px 0vw 50px 0px;
+        float: left;
+        width: 100%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        scroll-snap-type: x mandatory;
+    }
+
+    #container1 {
+    
+        margin-right: 8%;
+        display: inline-block;
+        width: 290px;
+        height: 290px;
+        background-color: #F7F7F7;
+        border-radius: 30px;
+        box-shadow: 4px 4px 4px lightgray;
+        scroll-snap-align: center;
+    }
+    
+    #container2 {
+        margin-right: 8%;
+        display: inline-block;
+        width: 290px;
+        height: 290px;
+        background-color: #F7F7F7;
+        border-radius: 30px;
+        box-shadow: 4px 4px 4px lightgray;
+        scroll-snap-align: center;
+    }
+
+    .experienceContainer ul {
+        display: none;
+     }
+
+}
+
+@media(max-width: 350px) {
+    .experienceContainer {
+        position: relative;
+        height: 250px;
+        margin-left: 0px;
+        padding: 50px 0vw 50px 0px;
+        float: left;
+        width: 100%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        scroll-snap-type: x mandatory;
+    }
+
+    #container1 {
+    
+        margin-right: 8%;
+        display: inline-block;
+        width: 240px;
+        height: 240px;
+        background-color: #F7F7F7;
+        border-radius: 30px;
+        box-shadow: 4px 4px 4px lightgray;
+        scroll-snap-align: center;
+    }
+    
+    #container2 {
+        margin-right: 8%;
+        display: inline-block;
+        width: 240px;
+        height: 240px;
+        background-color: #F7F7F7;
+        border-radius: 30px;
+        box-shadow: 4px 4px 4px lightgray;
+        scroll-snap-align: center;
+    }
+}
